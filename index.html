@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .main{
+            height: 140px;
+        }
+        .header{
+            background-color: red;
+            height: 100px;
+            background-repeat: no-repeat;
+            background-image: url("R-C.jpg");
+            background-size: 100% 100%;
+            background-position: center;
+        }
+        .login{
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            color: white;
+        }
+        .menu{
+            background-color: #420baf;
+            height: 40px;
+        }
+        .menuitem{
+            line-height: 40px;
+            width: 25%;
+            float: left;
+            text-align: center;
+        }
+        .table{
+            border: 1px solid #ccc;
+            margin: 10px;
+            width: 100%;
+        }
+        .table td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+        .intro {
+            margin: 15px;
+            text-align: justify;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+        .hobby {
+            column-count: 2;
+            margin: 15px;
+        }
+        .hobby>div {
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+        .footer {
+            height: 100px;
+            text-align: center;
+            padding-top: 40px;
+            background-image: url('R-C.jpg');
+            background-size: cover;
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <div>
+                <div class="login">
+                    <table>
+                        <tr>
+                            <td>用户名：</td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>密码：</td>
+                            <td><input type="password"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><input type="submit" value="登录"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="menu">
+            <div class="menuitem">首页</div>
+            <div class="menuitem">个人简介</div>
+            <div class="menuitem">特长爱好</div>
+            <div class="menuitem">未来目标</div>
+        </div>
+    </div>
+    <div>
+        <table class="table">
+            <tr>
+                <td>姓名</td>
+                <td>宗奕恒</td>
+                <td>性别</td>
+                <td>男</td>
+                <td rowspan="4"><img src="2.jpg" width="120"></td>
+            </tr>
+            <tr>
+                <td>籍贯</td>
+                <td>水果世界</td>
+                <td>出生年月</td>
+                <td>2010.04</td>
+            </tr>
+            <tr>
+                <td>身高</td>
+                <td>***cm</td>
+                <td>体重</td>
+                <td>**kg</td>
+            </tr>
+            <tr>
+                <td>毕业学校</td>
+                <td>果冻武术学院</td>
+                <td>专业</td>
+                <td >电子商务</td>
+            </tr>
+            <tr>
+                <td>爱好</td>
+                <td colspan="4">吹牛</td>
+            </tr>
+        </table>
+    </div>
+    <div class="intro">
+        <h3 style="text-align: center; color: red;">个人简介</h3>
+        <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp菠萝吹雪出生在一个贫穷的家庭，处于社会最底层，所以深知钱财的重要，导致后来为了赚钱愿意不惜一切代价。虽然其花心又贪财，但聪明且鬼点子很多。是果宝特攻里不可多得的好头脑。 [2]菠萝吹雪老家住在西门口，旧名西门吹雪，从小自力更生，六岁就开奶茶店，学费是在麦当当打工赚来的。其长相俊美，风流不羁，花心却不失善良正义，为女生服务是他的宗旨，对女生有绅士风度且非常会制造浪漫，但是被他亲口承认的女朋友只有梨花诗一个，内心深爱的人也只有梨花诗，为了梨花诗他甚至可以豁出性命，虽然家庭贫困，但他凭借在金拱门辛勤打工的收入，得以进入果冻武术学院深造。学院方丈赠送他赤霄剑，而因白蛇吞噬此剑的意外，他竟获得了召唤战甲的特异能力。</p>
+    </div>
+    <div class="hobby">
+        <div>
+            <h4>爱好与特长</h4>
+            <ul>
+                <li>经商</li>
+                <li>吹牛</li>
+                <li>舞剑</li>
+                <li>美女</li>
+            </ul>
+        </div>
+        <div>
+            <h4>我的足迹</h4>
+            <ul>
+                <li>打败东方不败</li>
+                <li>拯救水果世界</li>
+                <li>打败东方不败</li>
+                <li>拯救水果世界</li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer">
+        <h2>来吧，来一次说走就走的旅行！</h2>
+    </div>
+</body>
+</html>
